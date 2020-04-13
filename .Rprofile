@@ -1,1 +1,1 @@
-options(blogdown.ext = '.Rmd', blogdown.author = 'Eric Marcon')
+options(blogdown.ext = '.Rmarkdown', blogdown.author = 'Eric Marcon')
