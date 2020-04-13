@@ -31,6 +31,6 @@ url_code: "https://github.com/EricMarcon/entropart"
 url_project: "https://ericmarcon.github.io/entropart/"
 ---
 
-entropart is an R package that provides functions to calculate alpha, beta and gamma diversity of communities, including phylogenetic and functional diversity.
+*entropart* is an R package that provides functions to calculate $\alpha$, $\beta$ and $\gamma$ diversity of communities, including phylogenetic and functional diversity.
 
 Estimation-bias corrections are available.
