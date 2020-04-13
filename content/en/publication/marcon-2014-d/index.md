@@ -22,6 +22,7 @@ abstract: |
 featured: true
 publication: "*UMR EcoFoG*"
 url_pdf: "https://hal-agroparistech.archives-ouvertes.fr/cel-01205813"
+url_code: "https://github.com/EricMarcon/MesuresBioDiv2"
 ---
 
 La mise à jour permanente de ce document est lisible sur [GitHub](https://EricMarcon.github.io/MesuresBioDiv2/).
