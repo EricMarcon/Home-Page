@@ -11,3 +11,4 @@ url_pdf: "http://joeg.oxfordjournals.org/content/early/2009/11/26/jeg.lbp056"
 doi: "10.1093/jeg/lbp056"
 ---
 
+<span class="__dimensions_badge_embed__" data-doi="10.1093/jeg/lbp056"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>

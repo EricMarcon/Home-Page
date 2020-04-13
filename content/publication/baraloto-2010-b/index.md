@@ -12,7 +12,7 @@ abstract: |
   * We propose that independent variables describing functional diversitymight be grouped to calculate independent variables describing suites of different traits with potentially different effects on partic- ular ecosystem processes. In other systems these axes may differ from those reported here, yet the methods of analysis integrating functional and phylogenetic diversity into experimental design could be universal."
 featured: false
 publication: "*Annals of Forest Science*"
-url_pdf: "http://link.springer.com/article/10.1051%2Fforest%2F2009110"
 doi: "10.1051/forest/2009110"
 ---
 
+<span class="__dimensions_badge_embed__" data-doi="10.1051/forest/2009110"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>

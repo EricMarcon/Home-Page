@@ -1,6 +1,6 @@
 ---
 title: "Generalization of the Partitioning of Shannon Diversity"
-date: 2014-01-01
+date: 2014-06-03
 publishDate: 2020-04-12T22:31:15.384889Z
 authors: ["Eric Marcon", "Ivan Scotti", "Bruno Hérault", "Vivien Rossi", "Gabriel Lang"]
 publication_types: ["2"]
@@ -11,3 +11,4 @@ url_pdf: "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.00902
 doi: "10.1371/journal.pone.0090289"
 ---
 
+<span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pone.0090289"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>

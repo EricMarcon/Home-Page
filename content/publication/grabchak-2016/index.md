@@ -1,6 +1,6 @@
 ---
 title: "The Generalized Simpson's Entropy is a Measure of Biodiversity"
-date: 2017-01-01
+date: 2017-03-17
 publishDate: 2020-04-12T22:31:15.401498Z
 authors: ["Michael Grabchak", "Eric Marcon", "Gabriel Lang", "Zhiyi Zhang"]
 publication_types: ["2"]
@@ -11,3 +11,4 @@ url_pdf: "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.01733
 doi: "10.1371/journal.pone.0173305"
 ---
 
+<span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pone.0173305"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>

@@ -1,6 +1,6 @@
 ---
 title: "Les configurations de points"
-date: 2018-01-01
+date: 2018-10-29
 publishDate: 2020-04-12T22:31:15.347191Z
 authors: ["Jean-Michel Floch", "Eric Marcon", "Florence Puech"]
 publication_types: ["6"]

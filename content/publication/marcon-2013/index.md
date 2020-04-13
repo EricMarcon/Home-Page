@@ -1,6 +1,6 @@
 ---
 title: "A Statistical Test for Ripley's Function Rejection of Poisson Null Hypothesis"
-date: 2013-01-01
+date: 2013-04-14
 publishDate: 2020-04-12T22:31:15.397349Z
 authors: ["Eric Marcon", "Stéphane Traissac", "Gabriel Lang"]
 publication_types: ["2"]
@@ -11,3 +11,4 @@ url_pdf: "http://www.hindawi.com/journals/isrn/2013/753475/abs/"
 doi: "10.1155/2013/753475"
 ---
 
+<span class="__dimensions_badge_embed__" data-doi="10.1155/2013/753475"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>

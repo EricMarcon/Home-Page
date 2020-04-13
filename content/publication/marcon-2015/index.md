@@ -1,6 +1,6 @@
 ---
 title: "Mesures de la concentration spatiale en espace continu : théorie et applications"
-date: 2015-01-01
+date: 2015-02-19
 publishDate: 2020-04-12T22:31:15.363472Z
 authors: ["Eric Marcon", "Florence Puech"]
 publication_types: ["2"]
