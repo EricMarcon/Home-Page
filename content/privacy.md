@@ -12,8 +12,6 @@ header:
   image: ""
 ---
 
-# Privacy Policy
-
 Nothing on this website requires you to identify yourself.
 
 Google Analytics is used to analyze the traffic. It does collect some information about you. See the [Google Analytics privacy page](https://www.google.com/analytics/policies/).
