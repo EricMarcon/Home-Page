@@ -19,7 +19,7 @@ abstract: |
   Le paramétrage des mesures (l’ordre de la diversité) permet de donner plus ou moins d’importance aux espèces rares et de tracer des profils de diversité. 
 
   La construction de ce cadre méthodologique est présentée en détail ainsi que plusieurs approches différentes, qui constituent l'état de l'art de la mesure de la biodiversité.
-featured: true
+featured: false
 publication: "*UMR EcoFoG*"
 url_pdf: "https://hal-agroparistech.archives-ouvertes.fr/cel-01205813"
 url_code: "https://github.com/EricMarcon/MesuresBioDiv2"
