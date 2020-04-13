@@ -11,3 +11,4 @@ url_pdf: "https://hal.archives-ouvertes.fr/hal-01082178 https://link.springer.co
 doi: "10.1007/s00168-019-00946-7"
 ---
 
+<span class="__dimensions_badge_embed__" data-doi="10.1007/s00168-019-00946-7"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>

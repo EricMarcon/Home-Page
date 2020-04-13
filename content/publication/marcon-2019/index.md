@@ -1,6 +1,6 @@
 ---
 title: "Mesure de la biodiversité et de la structuration spatiale de l'activité économique par l'entropie"
-date: 2019-01-01
+date: 2019-05-24
 publishDate: 2020-04-12T22:31:15.403490Z
 authors: ["Eric Marcon"]
 publication_types: ["2"]
@@ -10,3 +10,4 @@ publication: "*Revue économique*"
 doi: "10.3917/reco.703.0305"
 ---
 
+<span class="__dimensions_badge_embed__" data-doi="10.3917/reco.703.0305"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>

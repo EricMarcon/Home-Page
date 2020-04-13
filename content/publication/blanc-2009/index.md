@@ -1,6 +1,6 @@
 ---
 title: "Dynamics of aboveground carbon stocks in a selectively logged tropical forest"
-date: 2009-01-01
+date: 2009-09-01
 publishDate: 2020-04-12T22:31:15.368927Z
 authors: ["Lilian Blanc", "Marion Echard", "Bruno Hérault", "Damien Bonal", "Eric Marcon", "Jérôme Chave", "Christopher Baraloto"]
 publication_types: ["2"]
