@@ -32,6 +32,14 @@
     url = "#featured"
     weight = 40
   [[fr.menu.main]]
+    name = "Communications"
+    url = "#talks"
+    weight = 50
+  [[fr.menu.main]]
+    name = "Cours"
+    url = "course/"
+    weight = 55
+  [[fr.menu.main]]
     name = "Contact"
     url = "#contact"
     weight = 60
