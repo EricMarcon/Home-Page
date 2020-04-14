@@ -13,6 +13,8 @@
   title = "Eric Marcon"
   [fr.params]
     description = ""
+    date_format = "02-Jan-2006"
+    time_format = "15:04"
   [[fr.menu.main]]
     name = "Accueil"
     url = "#about"
