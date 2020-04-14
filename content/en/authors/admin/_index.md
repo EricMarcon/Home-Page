@@ -52,6 +52,9 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=4iLBmbUAAAAJ
+- icon: publons
+  icon_pack: ai
+  link: https://publons.com/researcher/808431/eric-marcon/
 - icon: github
   icon_pack: fab
   link: https://github.com/EricMarcon
