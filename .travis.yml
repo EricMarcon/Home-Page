@@ -18,7 +18,3 @@ before_script:
 
 script:
 - Rscript -e '$ Rscript -e 'install.packages(c("ape"))'
-
-
-after_success:
-- ./deploy.sh
