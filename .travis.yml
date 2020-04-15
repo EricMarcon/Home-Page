@@ -10,3 +10,6 @@ cache:
   packages: false
   directories:
   - $HOME/.npm
+
+r_github_packages:
+  - rstudio/blogdown
