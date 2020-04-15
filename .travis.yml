@@ -7,6 +7,6 @@ branches:
     - master
 
 cache:
-  packages: true
+  packages: false
   directories:
   - $HOME/.npm
