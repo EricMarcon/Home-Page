@@ -8,15 +8,8 @@ cache:
   directories:
   - $HOME/.npm
 branches:
-  only: 
+  only:
     - master
-
-r_packages:
- - blogdown
- - tidyverse
- - igraph
- - scholar
- - igraph
 
 before_script:
 - nvm install node
