@@ -1,15 +1,15 @@
-language: R
-sudo: false
-cache:
-  packages: true
-  directories:
-  - $HOME/.npm
+language: r
+dist: xenial
+latex: false
+
 branches:
   only:
     - master
 
-r_packages:
- - blogdown
+cache:
+  packages: true
+  directories:
+  - $HOME/.npm
 
 before_script:
 - nvm install node
