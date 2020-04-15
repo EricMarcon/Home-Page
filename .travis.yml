@@ -17,8 +17,8 @@ before_script:
 - mkdir public
 
 script:
-- Rscript -e 'blogdown::install_hugo()'
-- Rscript -e 'blogdown::build_site(local = FALSE)'
+- Rscript -e '$ Rscript -e 'install.packages(c("ape"))'
+
 
 after_success:
 - ./deploy.sh
