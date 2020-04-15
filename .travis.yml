@@ -15,6 +15,3 @@ before_script:
 - nvm install node
 - npm install -g netlify-cli
 - mkdir public
-
-script:
-- Rscript -e '$ Rscript -e 'install.packages(c("ape"))'
