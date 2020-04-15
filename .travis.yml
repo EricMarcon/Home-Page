@@ -14,10 +14,10 @@ cache:
 before_script:
 - nvm install node
 - npm install -g netlify-cli
-- Rscript -e 'blogdown::install_hugo()'
 - mkdir public
 
 script:
+- Rscript -e 'blogdown::install_hugo()'
 - Rscript -e 'blogdown::build_site(local = FALSE)'
 
 after_success:

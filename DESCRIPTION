@@ -1,4 +1,5 @@
 Package: Home-Page
+Type: Website
 Title: Eric Marcon's Home Page
 Version: 1.0.0
 Authors@R: c(
@@ -13,3 +14,4 @@ Imports:
   igraph,
   scholar,
   igraph
+Remotes: rstudio/blogdown
