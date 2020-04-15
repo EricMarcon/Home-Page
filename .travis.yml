@@ -10,8 +10,3 @@ cache:
   packages: true
   directories:
   - $HOME/.npm
-
-before_script:
-- nvm install node
-- npm install -g netlify-cli
-- mkdir public
