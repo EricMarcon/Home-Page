@@ -9,3 +9,9 @@ public/
 # R
 .RData
 .Rhistory
+
+# blogdown
+blogdown/
+static/en/
+static/fr/
+*.rmarkdown
