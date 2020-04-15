@@ -1,5 +1,4 @@
 Package: Home-Page
-Type: Website
 Title: Eric Marcon's Home Page
 Version: 1.0.0
 Authors@R: c(
@@ -8,4 +7,8 @@ Authors@R: c(
 URL: https://github.com/ericmarcon/Home-Page
 Depends:
   R (>= 3.1.0)
-Imports: remotes, blogdown
+Imports:
+  blogdown, 
+  tidyverse,
+  igraph,
+  scholar
