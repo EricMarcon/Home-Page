@@ -18,3 +18,4 @@ static/en/
 static/fr/
 themes/academic/exampleSite/
 *.rmarkdown
+_index.html
