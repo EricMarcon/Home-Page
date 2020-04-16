@@ -14,7 +14,7 @@ header:
   image: ""
 ---
 
-```{r Options, echo=FALSE, message=FALSE}
+```{r options, echo=FALSE, message=FALSE}
 knitr::opts_chunk$set(cache=FALSE, echo = FALSE, tidy=FALSE, tidy.opts=list(blank=FALSE, width.cutoff=50), out.width='\\maxwidth')
 options(width=50)
 # Installation des packages si nécessaire et chargement
@@ -39,7 +39,7 @@ AuthorID <- "4iLBmbUAAAAJ" # Eric Marcon
 ```
 
 
-```{r Coauthors, message=FALSE}
+```{r coauthors, message=FALSE}
 # Paramètres
 MinCopublications <- 2
 MaxCoauteurs <- 100
@@ -97,7 +97,7 @@ ggraph(g, layout = "auto") +
 ```
 
 
-```{r Citations, message=FALSE}
+```{r citations, message=FALSE}
 get_citation_history(AuthorID)  %>% 
   ggplot(aes(year, cites)) +
     geom_segment(aes(xend = year, yend = 0), size=1, color='darkgrey') +
