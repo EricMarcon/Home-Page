@@ -2,6 +2,7 @@
 .idea/
 
 # R
+.Rbuildignore
 .RData
 .Rhistory
 .Rprofile
