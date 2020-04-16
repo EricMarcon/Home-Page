@@ -7,9 +7,12 @@ branches:
     - master
 
 cache:
-  packages: yes
+  packages: no
   directories:
     - $HOME/bin
+
+before_script:
+  - Rscript -e 'install.packages(c("remotes", "blogdown"))'
 
 script:
   - Rscript -e 'blogdown::install_hugo()'
