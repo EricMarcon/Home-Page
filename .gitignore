@@ -1,17 +1,18 @@
 # IDEs
 .idea/
 
+# R
+.RData
+.Rhistory
+
 # Hugo
 resources/
 public/
 .Rproj.user
 
-# R
-.RData
-.Rhistory
-
 # blogdown
 blogdown/
 static/en/
 static/fr/
+themes/academic/exampleSite/
 *.rmarkdown

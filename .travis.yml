@@ -7,9 +7,18 @@ branches:
     - master
 
 cache:
-  packages: false
+  packages: yes
   directories:
-  - $HOME/.npm
+    - $HOME/bin
 
-r_github_packages:
-  - rstudio/blogdown
+script:
+  - Rscript -e 'blogdown::install_hugo()'
+  - Rscript -e 'blogdown::build_site()'
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
+  local_dir: public
