@@ -28,7 +28,7 @@ image:
   focal_point: Smart
 
 url_code: "https://github.com/EricMarcon/Rochebrune2018"
-url_pdf: "https://ericmarcon.github.io/Rochebrune2018/Rochebrune2018.pdf"
+url_pdf: "https://ericmarcon.github.io/Rochebrune2018/Entropie.pdf"
 url_slides: "https://ericmarcon.github.io/Rochebrune2018/Presentation.pdf"
 
 

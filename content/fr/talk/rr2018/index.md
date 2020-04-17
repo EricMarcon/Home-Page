@@ -31,7 +31,7 @@ image:
 
 url_code: "https://github.com/EricMarcon/RR2018/"
 url_pdf: "https://ericmarcon.github.io/RR2018/RR2018.pdf"
-url_slides: "https://ericmarcon.github.io/RR2018/"
+url_slides: "https://ericmarcon.github.io/RR2018/RR2018.html"
 
 
 # Enable math on this page?
