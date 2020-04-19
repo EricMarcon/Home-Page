@@ -29,7 +29,7 @@ interests:
 education:
   courses:
   - course: Habilitation à Diriger des Recherches en écologie
-    institution: AgroParisTech
+    institution: Université de Guyane
     year: 2016
   - course: Doctorat en écologie
     institution: AgroParisTech

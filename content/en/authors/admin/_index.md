@@ -29,7 +29,7 @@ interests:
 education:
   courses:
   - course: Habilitation à Diriger des Recherches (French qualification to supervise research) in Ecology
-    institution: AgroParisTech
+    institution: Université de Guyane
     year: 2016
   - course: PhD in Ecology
     institution: AgroParisTech
