@@ -5,8 +5,7 @@ summary: ""
 authors: []
 tags: []
 categories: []
-date: 2020-04-17T16:19:27-03:00
-lastmod: 2020-04-17T16:19:27-03:00
+date: 2020-04-19
 featured: false
 draft: false
 

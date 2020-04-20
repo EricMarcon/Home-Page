@@ -1,14 +1,11 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "Bibliométrie avec R"
 subtitle: ""
 summary: "Utilisation de Google Scholar et de Scopus avec R pour analyser les publications d’une structure ou d’un auteur."
 authors: []
 tags: []
 categories: []
-date: 2020-04-17T16:19:27-03:00
-lastmod: 2020-04-17T16:19:27-03:00
+date: 2020-04-17
 featured: false
 draft: false
 

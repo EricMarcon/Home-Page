@@ -5,8 +5,7 @@ summary: "Techniques pour interpoler les valeurs d’une variable continue."
 authors: []
 tags: []
 categories: []
-date: 2020-04-17T16:19:27-03:00
-lastmod: 2020-04-17T16:19:27-03:00
+date: 2020-04-18
 featured: false
 draft: false
 

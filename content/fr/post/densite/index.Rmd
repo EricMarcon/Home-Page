@@ -1,14 +1,11 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "Densité avec réflexion"
 subtitle: ""
 summary: "Estimation de la densité d’une distribution bornée."
 authors: []
 tags: []
 categories: []
-date: 2020-04-17T16:19:27-03:00
-lastmod: 2020-04-17T16:19:27-03:00
+date: 2020-04-17
 featured: false
 draft: false
 
