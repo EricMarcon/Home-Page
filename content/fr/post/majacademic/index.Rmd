@@ -31,35 +31,38 @@ Le *fork* doit être complété par l'installation du sous-module correspondant 
 Pour le bon fonctionnement de `blogdown`, le fichier `config/_default/config.toml` doit être déplacé à la racine du projet.
 Enfin, si le site est multilingue, le contenu du site (dossier `content`) doit être copié dans un dossier correspondant à chaque langue. Par exemple, le fichier `content/authors/admin/_index.md` qui contient les informations sur le propriétaire du site est dupliqué dans `content/en/authors/admin/_index.md` et `content/fr/authors/admin/_index.md` si le site supporte l'Anglais et le Français.
 
+
 # Mise à jour
+
+## Fusion des modifications
 
 La structure du site et le thème peuvent être mis à jour à tout moment, dès que le dépôt GitHub indique qu'il est en retard sur l'original (ici: "1 commit behind sourcethemes:master."):
 
-![Dépôt GitHub](github.png)
+![](github.png)
 
 La mise à jour est lancée en cliquant sur le bouton *Compare*, à droite de l'écran.
 
 Les deux dépôts à comparer sont affichés, mais le sens d'une mise à jour du modèle par le dépôt local:
 
-![Comparaison](compare.png)
+![](compare.png)
 
-Il faut l'inverser:
+Il faut l'inverser.
+Sélectionner le dépôt local à gauche:
 
-* sélectionner le dépôt local à gauche,
+![](compare_forks.png)
 
-![Comparaison](compare_forks.png)
-* cliquer sur "compare accross forks",
+Cliquer sur "compare accross forks":
 
-![Comparaison](compare2.png)
+![](compare2.png)
 
-* sélectionner "sourcethemes/academic-kickstart" à droite
+Sélectionner "sourcethemes/academic-kickstart" à droite:
 
-![Comparaison](compare3.png)
+![](compare3.png)
 
 Cliquer sur le bouton "View Pull resquest".
 Les modifications qui ne peuvent pas être intégrées automatiquement sont affichées:
 
-![Conflits](conflict.png)
+![](conflict.png)
 
 Typiquement, deux fichiers posent problème:
 
@@ -68,24 +71,31 @@ Typiquement, deux fichiers posent problème:
 
 Cliquer sur "view command line instructions" et les suivre :
 
-* dans RStudio, ouvrir le terminal et exécuter `git checkout -b sourcethemes-master master` pour créer une nouvelle branche, `sourcethemes-master` dans le dépôt local. Exécuter ensuite `git pull https://github.com/sourcethemes/academic-kickstart.git master` pour y placer le contenu du dépôt Academic-Kickstart.
+* dans RStudio, ouvrir le terminal et exécuter `git checkout -b sourcethemes-master master` pour créer une nouvelle branche, `sourcethemes-master`, dans le dépôt local. Exécuter ensuite `git pull https://github.com/sourcethemes/academic-kickstart.git master` pour y placer le contenu du dépôt Academic-Kickstart.
 * Régler les conflits :
     * supprimer les deux fichiers cités qui n'existent plus dans le dépôt local (il faudra mettre leur contenu à jour manuellement);
     * régler les autres conflits de façon classique en retenant la version correspondant à la mise à jour d'Academic-Kickstart.
 * Valider les modifications par des *Commit*.
-* Mettre à jour les fichiers déplacés. Pour celà, afficher le dépôt [Academic-Kickstart](https://github.com/sourcethemes/academic-kickstart) sur GitHub:
 
-![Dernier Commit](kickstart.png)
+Il reste à mettre à jour les fichiers déplacés. Pour celà, afficher le dépôt [Academic-Kickstart](https://github.com/sourcethemes/academic-kickstart) sur GitHub:
+
+![](kickstart.png)
   
-  * Cliquer sur le texte décrivant le dernier *Commit*;
-  * Examiner les modifications effectuées sur les fichiers non mis à jour et les reporter manuellement dans les fichiers concernées. Ici, 7 lignes doivent être ajoutées au fichier `config.toml`, et le chemp "name" doit être renommé "title" dans les deux exemplaires de `authors/admin/_index.md`.
+Cliquer sur le texte décrivant le dernier *Commit*.
+
+Examiner les modifications effectuées sur les fichiers non mis à jour et les reporter manuellement dans les fichiers concernées. Ici, 7 lignes doivent être ajoutées au fichier `config.toml`, et le champ "name" doit être renommé "title" dans les deux exemplaires de `authors/admin/_index.md`.
   
-![Modifications](modifications.png)
+![](modifications.png)
 
-* Fusionner la branche mise à jour dans la branche principale: `git checkout master` puis `git merge --no-ff sourcethemes-master`;
-* Le résultat peut être poussé sur GitHub.
+Fusionner la branche mise à jour dans la branche principale: `git checkout master` puis `git merge --no-ff sourcethemes-master`;
 
-Il reste à mettre à jour le sous-module du thème *Academic*, qui est dépôt Git lui-même.
+Le résultat peut être poussé sur GitHub.
+
+
+## Mise à jour du thème
+
+Il faut encore mettre à jour le sous-module du thème *Academic*, qui est dépôt Git lui-même.
+
 Dans le terminal de RStudio, exécuter `cd themes/academic/` pour que le répertoire de travail soit celui du thème, puis `git checkout master` pour vérifier le placement dans la branche principale et enfin `git pull` pour tirer les mises à jour.
 Revenir dans le dépôt principal par les commandes `cd ..\..` puis `git checkout master`.
 Les mises à jour du thème apparaissent dans la fenêtre Git de RStudio, et doivent être validée par un Commit.
