@@ -81,7 +81,7 @@ edit_page = {repo_url = "https://github.com/EricMarcon/Home-Page", content_dir =
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = ""
+email = "e.marcon@free.fr"
 phone = ""
 
 # Address
