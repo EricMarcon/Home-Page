@@ -96,6 +96,7 @@ ggraph(g, layout = "auto") +
        caption = paste("Coauthors with at least", MinCopublications, "copublications"))
 ```
 
+Indice h: `r AuthorID %>% get_profile %>% pluck("h_index")`.
 
 ```{r citations, message=FALSE}
 get_citation_history(AuthorID)  %>% 
