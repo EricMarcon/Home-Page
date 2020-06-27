@@ -12,7 +12,7 @@ cache:
     - $HOME/bin
 
 script:
-  - Rscript -e 'blogdown::install_hugo()'
+  - Rscript -e 'blogdown::install_hugo(force=TRUE)'
   - Rscript -e 'blogdown::build_site()'
   - touch public/.nojekyll
 
