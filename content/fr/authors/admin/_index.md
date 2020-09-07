@@ -74,4 +74,4 @@ email: ""
 # - Visitors
 ---
 
-Je suis chercheur en écologie tropicale.
+Je suis chercheur en écologie tropicale à l'[UMR Amap](http://amap.cirad.fr/), chargé de mission à la Direction de la Recherche et de la Valorisation d'[AgroParisTech](http://www.agroparistech.fr) et coordinateur du parcours [BioGET](https://biologie-ecologie.com/master-b2e/parcours/bioget/) du master Biodiversité, Ecologie et Evolution (AgroParisTech et Université de Montpellier).

@@ -81,7 +81,7 @@ edit_page = {repo_url = "https://github.com/EricMarcon/Home-Page", content_dir =
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "e.marcon@free.fr"
+email = "eric.marcon@agroparistech.fr"
 phone = ""
 
 # Address
@@ -90,7 +90,7 @@ address = {street = "", city = "", region = "", postcode = "", country = "", cou
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "5.173298", longitude = "-52.653522"}
+coordinates = {latitude = "43.646438", longitude = "3.878938"}
 
 # Directions for visitors to locate you.
 directions = ""

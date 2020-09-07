@@ -24,9 +24,9 @@ date_format = "Jan 2006"
   company_url = "https://www.ecofog.gf"
   location = "French Guiana"
   date_start = "2010-01-01"
-  date_end = ""
+  date_end = "2020-08-31"
   description = """
-  Responsibilities include:
+  Responsibilities included:
   
   * Research Administration
   * Management
