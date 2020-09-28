@@ -11,6 +11,7 @@
   languageCode = "fr-fr"
   contentDir = "content/fr"
   title = "Eric Marcon"
+  description = "Page personnelle d'Eric Marcon"
   [fr.params]
     description = ""
     date_format = "02-Jan-2006"
