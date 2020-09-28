@@ -6,17 +6,17 @@
 .RData
 .Rhistory
 .Rprofile
-
-# Hugo
-resources/
-public/
 .Rproj.user
 
+# Hugo
+/resources/
+/public/
+
 # blogdown
-blogdown/
-static/en/
-static/fr/
-themes/academic/exampleSite/
+/blogdown/
+/static/en/
+/static/fr/
+/themes/academic/exampleSite/
 *.rmarkdown
 _index.html
 index.html
