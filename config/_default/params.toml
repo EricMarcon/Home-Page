@@ -200,6 +200,9 @@ plugins_js  = []
   publication_view = 2
   talk_view = 2
 
+# media directory (Academic v.5.0)
+media_dir = "img"
+
 ############################
 ## Comments
 ############################
@@ -276,3 +279,9 @@ plugins_js  = []
 [cms]
   # See https://sourcethemes.com/academic/docs/install/#install-with-web-browser
   netlify_cms = false
+
+############################
+## Icon Pack Extensions
+############################
+[icon.pack]
+ ai = true  # Academicons icon pack https://jpswalsh.github.io/academicons/
