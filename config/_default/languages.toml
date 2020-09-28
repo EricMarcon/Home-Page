@@ -25,7 +25,7 @@
     weight = 20
   [[fr.menu.main]]
     name = "Logiciels"
-    url = "#projects"
+    url = "#software"
     weight = 30
   [[fr.menu.main]]
     name = "Publications"
