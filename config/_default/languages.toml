@@ -19,15 +19,7 @@
   [[fr.menu.main]]
     name = "Accueil"
     url = "#about"
-    weight = 10
-  [[fr.menu.main]]
-    name = "Articles"
-    url = "#posts"
     weight = 20
-  [[fr.menu.main]]
-    name = "Logiciels"
-    url = "#software"
-    weight = 30
   [[fr.menu.main]]
     name = "Publications"
     url = "#featured"
@@ -35,12 +27,20 @@
   [[fr.menu.main]]
     name = "Communications"
     url = "#talks"
-    weight = 50
+    weight = 60
+  [[fr.menu.main]]
+    name = "Logiciels"
+    url = "#software"
+    weight = 70
   [[fr.menu.main]]
     name = "Cours"
-    url = "course/"
-    weight = 55
+    url = "#course"
+    weight = 80
+  [[fr.menu.main]]
+    name = "Articles"
+    url = "#posts"
+    weight = 90
   [[fr.menu.main]]
     name = "Contact"
     url = "#contact"
-    weight = 60
+    weight = 130
