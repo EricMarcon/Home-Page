@@ -16,12 +16,12 @@ script:
   - Rscript -e 'blogdown::build_site()'
   - touch public/.nojekyll
 
-deploy:
-  provider: pages
-  skip_cleanup: true
-  token: $GITHUB_TOKEN
-  on:
-    branch: master
-  local_dir: public
-  repo: ericmarcon/ericmarcon.github.io
-  target_branch: master
+# deploy:
+#   provider: pages
+#   skip_cleanup: true
+#   token: $GITHUB_TOKEN
+#   on:
+#     branch: master
+#   local_dir: public
+#   repo: ericmarcon/ericmarcon.github.io
+#   target_branch: master
